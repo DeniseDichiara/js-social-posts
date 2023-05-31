@@ -69,7 +69,7 @@ posts.forEach(( imageElement) => {
     postElement.innerHTML +=
 `
     <div id="container" class="posts-list">
-        <img src="${posts.id}" alt="mare">
+        <img src="${imageElement.media}" alt="mare">
     </div>
 `
 })
