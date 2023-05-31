@@ -1,7 +1,17 @@
 
+const photoAlbum = ['mare-inverno-italia'];
 
 const postMeta = document.querySelector('div.posts-list');
 console.log(postMeta);
+
+postMeta.innerHTML +=
+`
+    <div class="post">
+        
+    </div>
+
+`
+
 
 
 
@@ -11,11 +21,6 @@ console.log(postMeta);
 
 //containerElement.innerHTML +=
 
-postMeta.innerHTML +=
-`
-    <div class="post"></div>
-
-`
 
 /*<div class="post-meta__icon">
     <img class="profile-pic" src="https://unsplash.it/300/300?image=15" alt="Phil Mangione">                    
