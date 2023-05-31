@@ -7,7 +7,7 @@ console.log(postMeta);
 postMeta.innerHTML +=
 `
     <div class="post">
-        
+        <img src"${photoAlbum[0]}" alt="mare">
     </div>
 
 `
