@@ -60,11 +60,25 @@ const posts = [
 
 
 
+
+
 const postElement = document.querySelector('div.posts-list');
 console.log(postElement);
 
 
 posts.forEach(( imageElement) => {
+
+    function addElement(){
+        const newPost = document.createElement('div');
+
+        const newContent = document.createTextNode('Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias');
+
+        newPost.append(newContent);
+
+        const currentDiv = document.getElementById('div.post');
+
+        document.body.insertBefore(newPost, currentDiv);
+    }
 
     postElement.innerHTML +=
 `
